@@ -1,7 +1,7 @@
 import pickle
 
 from mf import MF
-from utils.dataprocess import ratings, meanRatings
+from recommender.utils.dataprocess import ratings, meanRatings
 
 userCount = ratings['userId'].max()
 movieCount = ratings['movieIndex'].max() + 1
