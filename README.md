@@ -9,8 +9,8 @@ Front end is on ReactJS and the minified code is in js/ folder.
 
 The js/ folder also has imlementation for 
 - Face Recognition System sample implementaion
-- COVID RELATED ARTICLE CLUSTERING & COVID DATA EDA
-- WALMART SALES FORCAST USING TIME SERIES DATA
+- COVID related articles Clustering & COVID Data EDA
+- Walmart Sales Forcast using Time Series Data
 - Tweet Sentiment Analysis
 - Sentiment Extraction from Text messages
 - Melanoma classification from images
