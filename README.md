@@ -1,0 +1,21 @@
+# PortfolioApp
+
+The project contains the code for multiple small apps and Machine line notebooks deployed in Heroku.
+
+The primary project is a movie Reccomendor system based on MovieLens movie review Data Set. The backend support is with Python Flask framework.
+Recommendation algorithm is based on Collaborative filtering using Marix Factorisation.
+
+Front end is on ReactJS and the minified code is in js/ folder.
+
+The js/ folder also has imlementation for 
+- Face Recognition System sample implementaion
+- COVID RELATED ARTICLE CLUSTERING & COVID DATA EDA
+- WALMART SALES FORCAST USING TIME SERIES DATA
+- Tweet Sentiment Analysis
+- Sentiment Extraction from Text messages
+- Melanoma classification from images
+- Titanic Survival Prediction 
+- Big Market Sales prediction
+
+
+Deployed Link : https://portfolio-apps-ashna.herokuapp.com/
