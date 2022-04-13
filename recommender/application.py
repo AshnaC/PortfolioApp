@@ -5,6 +5,7 @@ from flask import Blueprint
 
 recommender_api = Blueprint('recommender_api', __name__)
 
+# Load trained models
 mfModel = pickle.load(open('recommender/pkl/mfModel.pkl', "rb"))
 knnModel = pickle.load(open('recommender/pkl/knnModel.pkl', "rb"))
 
