@@ -22,7 +22,7 @@ class MF:
             for row in rating_df[['userId', 'movieIndex', 'rating']].values:
                 self.sgd(int(row[0] - 1), int(row[1]), row[2])
             end_time = time.time()
-            print('iteration {} Time {}'.format(i, end_time - start_time))
+            print('Iteration {}, Time {}'.format(i, end_time - start_time))
 
     def sgd(self, user, movie, rate):
         prediction = self.P[user, :].dot(self.Q[movie, :]) + \
